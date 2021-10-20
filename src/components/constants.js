@@ -85,6 +85,9 @@ query ContactInfo($contactId: Long) {
       unitPrice
       tradeAmount
       extInfo
+      type {
+        amountEffect
+      }
     }
   }
 }
